@@ -1,4 +1,6 @@
-for (int i =1 ; i <= 100 ; i++) { //for numbers 1-100
+#include <stdio.h>
+int main (void){
+    for (int i =1 ; i <= 10000 ; i++) { //for numbers 1-100
 if (i% 15 == 0) { //if number is divisible by 15, write FizzBuzz
 printf ("fizzbuzz\n");
 } else if (i% 3==0) { //if number is divisible by 3, write fizz
@@ -7,8 +9,10 @@ printf ("fizz\n");
 else if (i% 5==0) { //if number is divisible by 5, write buzz
 printf ("buzz\n");
 } 
-else { /otherwise write down the number 
+else { //otherwise write down the number 
 printf ("%i\n", i);
 }
 }
 }
+
+
